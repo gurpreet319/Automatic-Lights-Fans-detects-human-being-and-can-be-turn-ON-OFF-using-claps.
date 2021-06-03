@@ -30,7 +30,7 @@ IF Clap Signal is HIGH then it will toggle the output. If it is HIGH then after 
  |   0          |      1        |          1         |     1|
  
  
- Here x dont care, it can be High or Low, Since the System is override by clap system.
+ Here 'x' is dont care, it can be High or Low, Since the System is override by clap system.
 
 
 
