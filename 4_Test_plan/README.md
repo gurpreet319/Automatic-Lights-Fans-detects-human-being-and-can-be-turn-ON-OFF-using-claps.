@@ -14,4 +14,17 @@
 
 • If the maximum allowed limit has reached and someone tries to enter, the buzzer beeps for 2 seconds and LCD shows warning that entry is not allowed as limit has reached however the sanitization system still works to sanitize the person.
 
+## Excepted Truth Table
+Claps          |   Light       |    Infrared Sensor |   Output
+---------------|---------------|--------------------|----------------
+    1          |      0        |          0         |     x
+    1          |      0        |          1         |     x
+    1          |      1        |          0         |     x
+    1          |      1        |          1         |     x
+    0          |      0        |          0         |     0
+    0          |      0        |          1         |     0
+    0          |      1        |          0         |     0
+    0          |      1        |          1         |     1
+
+
 
