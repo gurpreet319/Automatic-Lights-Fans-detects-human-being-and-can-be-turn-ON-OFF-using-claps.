@@ -2,17 +2,18 @@
 
 ## Testing Observations
 
-• At first entry point sanitizer is dispensed and LCD shows instruction to go to second entry point.
+Initially when person enters the room, Infrared sensor detects that motion and sends a high signal to IC-CD4017(Decade Counter).
 
-• At second entry point body temperature is measured and shown on LCD screen.
+After riecing the signal, decade counter increments its output and it goes to an AND gate
 
-• If the body temperature is high buzzer is activated and alert is shown to person on LCD.
+Another Signal which comes from Light Dependence Resistor goes to another input of AND Gate.
 
-• If the person doesn’t sanitize himself and moves directly to enter 2, in this condition also buzzer is activated and alert is shown to person on LCD to sanitize himself.
+AND Gate produces HIGH output when both inputs are HIGH.
 
-• Also, image of person is captured when buzzer activates and sent through SMS/email.
+The ouput of AND Gate goes to a 2 to 1 mux whose selection signal dependent upon Clap System.
 
-• If the maximum allowed limit has reached and someone tries to enter, the buzzer beeps for 2 seconds and LCD shows warning that entry is not allowed as limit has reached however the sanitization system still works to sanitize the person.
+IF Clap Signal is HIGH then it will toggle the output. If it is HIGH then after clap it changes to LOW and vice-versa.
+
 
 ## Excepted Truth Table
 
@@ -27,6 +28,9 @@
  |   0          |      0        |          1         |     0|
   |  0          |      1        |          0         |     0|
  |   0          |      1        |          1         |     1|
+ 
+ 
+ Here x dont care, it can be High or Low, Since the System is override by clap system.
 
 
 
