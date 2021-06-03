@@ -21,4 +21,6 @@
 
 ### Low Level Structure Diagram
 
+![lowLevel_Structure](https://user-images.githubusercontent.com/65659795/120634970-86704380-c489-11eb-8ae4-22b804e5f2c0.png)
+
 
