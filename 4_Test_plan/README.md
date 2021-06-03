@@ -2,17 +2,17 @@
 
 ## Testing Observations
 
-Initially when person enters the room, Infrared sensor detects that motion and sends a high signal to IC-CD4017(Decade Counter).
+*  Initially when person enters the room, Infrared sensor detects that motion and sends a high signal to IC-CD4017(Decade Counter).
 
-After riecing the signal, decade counter increments its output and it goes to an AND gate
+*  After riecing the signal, decade counter increments its output and it goes to an AND gate
 
-Another Signal which comes from Light Dependence Resistor goes to another input of AND Gate.
+*  Another Signal which comes from Light Dependence Resistor goes to another input of AND Gate.
 
-AND Gate produces HIGH output when both inputs are HIGH.
+*  AND Gate produces HIGH output when both inputs are HIGH.
 
-The ouput of AND Gate goes to a 2 to 1 mux whose selection signal dependent upon Clap System.
+*  The ouput of AND Gate goes to a 2 to 1 mux whose selection signal dependent upon Clap System.
 
-IF Clap Signal is HIGH then it will toggle the output. If it is HIGH then after clap it changes to LOW and vice-versa.
+*  IF Clap Signal is HIGH then it will toggle the output. If it is HIGH then after clap it changes to LOW and vice-versa.
 
 
 ## Excepted Truth Table
