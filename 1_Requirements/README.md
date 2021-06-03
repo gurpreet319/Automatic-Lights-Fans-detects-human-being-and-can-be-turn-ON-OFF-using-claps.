@@ -1,16 +1,15 @@
 # Requirements
 
 ## High Level Requirement
-1. Sanitizer should be dispensed automatically upon entry
-2. Body temperature should be monitored automatically
-3. Alerts should be given to user in case of anomaly
+1. Light Should be turned on when person enters the room if Sun is up.
+2. Claps system works only when person claps twice.
+3. Lights should tunred OFF when person leaves
 
 ## Low Level Requirements
-1. Mimimal delay should be there between consecutive entries
+1. Delay between consectuive slaps should be minimum
 2. Proper calibration of all the sensors
-3. IoT alerts to report the anomalies to authorities
-4. Webcam interface to capture the image
-5. Restriction on number of entries
+3. Other Noises should not turn on the clap system.
+4. Mic should be placed in adequate place.
 
 ## Hardware Requirements
 1. IC CD4017- Decade Counter
