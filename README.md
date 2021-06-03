@@ -1,5 +1,7 @@
 # LTTS-Project_SDLC
 
+Automatic Lights which can turned ON/OFF by Claps
+
 ## Project Features
 1. Lights can be turned ON/OFF automatically.
 2. If light is adequate in room, then normally lights wont turn ON.
