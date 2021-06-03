@@ -33,6 +33,10 @@
 
 This device is built using electronic components which are easily available in market and affordable.
 
+# SWOT Analysis
+
+![SWOT](https://user-images.githubusercontent.com/65659795/120639829-6b083700-c48f-11eb-863c-b7bbb12a0750.png)
+
 
 # 4W&#39;s and 1&#39;H
 
