@@ -25,9 +25,9 @@
 
 
 ## Software Requirements
-(Only for Lab Simulation)
-1.VHDL
-2.MODELSIM Simulator
+(Only for Lab simulation)
+1. VHDL
+2. MODELSIM Simulator
 
 
 ## Feasibility Analysis
