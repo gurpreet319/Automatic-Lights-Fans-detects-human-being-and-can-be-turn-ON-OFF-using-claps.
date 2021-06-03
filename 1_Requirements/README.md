@@ -29,51 +29,30 @@
 2. MODELSIM Simulator
 
 
-## Feasibility Analysis
-The project can be implemented using affordable electronic and software technology making it economically, technically and operationally feasible.
+## Cost 
 
-### Economic Feasibility
-The project is built on Arduino uno development board and electronic components such as infrared sensors, temperature sensor, LCD, DC pump etc. which are affordable and readily available in market making it economically possible to implement.
-
-### Technical Feasibility
-Most of the hardware and software components used in the project are open source with good forums and researches available on them regarding latest technical advancements. Therefore, it is very much feasible from technical aspect.
-
-### Operational Feasibility
-The setup is very easy to use with user friendly interface and alerts, instruction being shown using 16*2 LCD making it very simple to operate even from a layman point of view. Just power on and follow the visual instructions shown on LCD.
-
-
-## Defining the system
-
-![block diagram](https://user-images.githubusercontent.com/39994054/120267746-37c47d00-c2c2-11eb-9b3b-3d5340ae1989.JPG)
-
-
-
-## SWOT analysis
-
-![swot analysis](https://user-images.githubusercontent.com/39994054/120269252-131dd480-c2c5-11eb-92e0-a544d2186e45.JPG)
-
+This device is built using electronic components which are easily available in market and affordable.
 
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-The implemented system is helpful for everyone in present world for providing contactless sanitizing and body temperature check before taking entry at any place.
+This device helps the consumer by reducing their electric bill and helps the child by avoiding the direct contact with electrical switches.
 
 ## What:
 
-A smart sanitization and alert system with ability to send alerts along with image of person in case of anomaly.
+A device which turns On light when a person enters and it is Dark outside. This whole device overrides by clap System.
 
 ## When:
-
-When taking entry at any public place to ensure that every person take sanitization and body temperature check process seriously to ensure safety of everyone. 
+This device ensures that lights are OFF when they are not in use.
 
 ## Where:
 
-Can be put at entry gates of various place like school/colleges, offices, malls, metro stations etc.
+It can be used in front of the doors in public washrooms or at home.
 
 ## How:
 
-The system automatically dispenses sanitizer when a person takes entry at entry gate 1 and shows instruction to go to entry gate 2. At entry gate 2 body temperature of person is checked. If the person has skipped sanitization or is having signs of fever, it triggers the buzzer to alert nearby people and also an automatic alert is triggered in form of SMS/e-mail along with image of person to report this incident.
+WHen person enters, it detects by IR sensor which is placed at door and photo resistor checks whether it's day or night. If it day, the light will turn OFF or else Lights will be turn ON. If lights are On and person who is inside, wants to turn OFF, then 2 consecutive claps with minimal delay will turn OFF the switch.
 
 
